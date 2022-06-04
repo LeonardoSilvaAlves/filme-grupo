@@ -1,7 +1,5 @@
-:root {
-    --persian-plum: #73191Cff;
-    --rich-black-fogra-39: #010302ff;
-    --smoky-black: #0B0100ff;
-    --red-pigment: #EC272Eff;
-    --rich-black-fogra-39-2: #010404ff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
