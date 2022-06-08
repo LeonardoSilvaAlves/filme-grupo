@@ -106,10 +106,9 @@ main {
   width: 30rem;
   margin-bottom: 1rem;
   border-radius: 50%;
+ 
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 16px 22px 31px 15px rgba(0,0,0,0.48); 
   box-shadow: 0px 10px 13px -7px #000000, 16px 22px 31px 15px rgba(0,0,0,0.48);
-  margin-bottom: 1rem;
-  border-radius: 50%;
 }
 
 .personagens .cima {
