@@ -25,13 +25,15 @@ html {
 body {
   font-size: 1.8rem;
   color: var(--white);
-
-  background: var(--blue-sapphire);
+  
+  background: rgb(5,13,49);
+  background: linear-gradient(79deg, rgba(5,13,49,1) 0%, rgba(9,59,120,1) 96%);
 }
 
 main {
   text-align: center;
   margin-left: 4.3rem;
+  margin-top: 8vh;
 }
 
 .navbar {
@@ -39,10 +41,15 @@ main {
   justify-content: space-around;
   align-items: center;
 
-  background: var(--maximum-blue-green);
+  width: 100vw;
+  position: absolute;
+  background: rgba(7, 95, 101, 0.692);  
+  background: linear-gradient(79deg, rgba(7,94,101,1) 0%, rgba(79,196,205,1) 96%);
+  
 
   height: 8vh;
   padding-top: 1rem;
+  top: 0;
 }
 
 .navbar img {
@@ -125,7 +132,7 @@ footer h3 {
 }
 
 @media (max-width: 999px) {
-  body {
+  .navbar {
     overflow-x: hidden;
   }
 
