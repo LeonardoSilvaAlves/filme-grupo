@@ -47,7 +47,7 @@ main {
   background: linear-gradient(79deg, rgba(7,94,101,1) 0%, rgba(79,196,205,1) 96%);
   
 
-  height: 8vh;
+  height: 10vh;
   padding-top: 1rem;
   top: 0;
 }
@@ -92,10 +92,20 @@ main {
   text-align: center;
 }
 
-.sinopse h2,
+.sinopse img {
+  height: 30rem;
+  width: 50rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.sinopse h2 {
+  padding-top: 3rem;
+}
+
 .personagens h2 {
   margin-top: 3.2rem;
-  margin-bottom: 0.7rem;
+  margin-bottom: 2rem;
 
   font-size: 2.5rem;
 }
