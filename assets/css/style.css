@@ -25,9 +25,13 @@ html {
 body {
   font-size: 1.8rem;
   color: var(--white);
-  
-  background: rgb(5,13,49);
-  background: linear-gradient(79deg, rgba(5,13,49,1) 0%, rgba(9,59,120,1) 96%);
+
+  background: rgb(5, 13, 49);
+  background: linear-gradient(
+    79deg,
+    rgba(5, 13, 49, 1) 0%,
+    rgba(9, 59, 120, 1) 96%
+  );
 }
 
 main {
@@ -43,9 +47,12 @@ main {
 
   width: 100vw;
   position: absolute;
-  background: rgba(7, 95, 101, 0.692);  
-  background: linear-gradient(79deg, rgba(7,94,101,1) 0%, rgba(79,196,205,1) 96%);
-  
+  background: rgba(7, 95, 101, 0.692);
+  background: linear-gradient(
+    79deg,
+    rgba(7, 94, 101, 1) 0%,
+    rgba(79, 196, 205, 1) 96%
+  );
 
   height: 10vh;
   padding-top: 1rem;
@@ -88,15 +95,20 @@ main {
   text-transform: uppercase;
 }
 
+section h2 {
+  text-transform: uppercase;
+}
+
 .sinopse {
   text-align: center;
 }
 
 .sinopse img {
-  height: 30rem;
-  width: 50rem;
-  padding-top: 2rem;
+  height: 42rem;
+  width: 70rem;
+
   padding-bottom: 2rem;
+  margin-top: 5rem;
 }
 
 .sinopse h2 {
@@ -142,6 +154,11 @@ footer h3 {
 }
 
 @media (max-width: 999px) {
+  .sinopse img {
+    height: 30rem;
+    width: 50rem;
+  }
+
   .navbar {
     overflow-x: hidden;
   }
