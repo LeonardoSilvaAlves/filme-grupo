@@ -123,6 +123,20 @@ section h2 {
   padding-top: 3rem;
 }
 
+
+.sinopse img {
+  height: 42rem;
+  width: 70rem;
+
+  padding-bottom: 2rem;
+  margin-top: 5rem;
+}
+
+.sinopse h2 {
+  padding-top: 3rem;
+}
+
+
 .personagens h2 {
   margin-top: 3.2rem;
   margin-bottom: 2rem;
